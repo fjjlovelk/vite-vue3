@@ -1,0 +1,42 @@
+{
+  "name": "vite-vue3",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wangeditor/editor": "^5.1.1",
+    "@wangeditor/editor-for-vue": "^5.1.11",
+    "axios": "^0.27.2",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.3",
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.6",
+    "esri-loader": "^2.8.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.14",
+    "qs": "^6.10.5",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16",
+    "vxe-table": "^4.2.8",
+    "xe-utils": "^3.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.7.1",
+    "sass": "^1.52.3",
+    "vite": "^2.9.9"
+  }
+}
