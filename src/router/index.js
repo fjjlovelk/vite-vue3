@@ -1,25 +1,10 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
-
-const routes = [
-  {
-    path: '/',
-    redirect: '/home'
-  },
-  {
-    path: '/home',
-    name: 'Home',
-    component: () => import('@/views/home.vue')
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import('@/views/about.vue')
-  }
-];
+import constantRoutes from './constant-routes';
+import asyncRoutes from './async-routes';
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes: [...asyncRoutes, ...constantRoutes]
 });
 
 export default router;
