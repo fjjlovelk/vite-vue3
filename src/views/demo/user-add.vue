@@ -1,5 +1,5 @@
 <template>
-  <div>日</div>
+  <div>添加用户</div>
 </template>
 
 <script setup></script>
