@@ -40,11 +40,16 @@ const handleSelect = index => {
 
 <style lang="scss" scoped>
 .el-menu {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 70px);
   overflow: auto;
-  .el-menu-item.is-active {
-    color: var(--el-color-white);
-    background-color: var(--el-color-primary);
+  border-right: none;
+  margin-top: 10px;
+  .el-menu-item {
+    border-radius: 4px;
+    &.is-active {
+      color: var(--el-color-white);
+      background-color: var(--el-color-primary);
+    }
   }
   i {
     margin-right: 14px;
