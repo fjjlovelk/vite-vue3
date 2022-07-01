@@ -1,7 +1,11 @@
 <template>
-  <router-view />
+  <el-config-provider size="small">
+    <router-view />
+  </el-config-provider>
 </template>
 
-<script setup></script>
+<script setup>
+import { ElConfigProvider } from 'element-plus';
+</script>
 
 <style></style>

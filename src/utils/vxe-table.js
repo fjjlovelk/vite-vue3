@@ -1,6 +1,14 @@
 import 'xe-utils';
-import VXETable from 'vxe-table';
-import 'vxe-table/lib/style.css';
+import {
+  // 全局对象
+  VXETable,
+  // 表格功能
+  Footer,
+  // 可选组件
+  Column,
+  // 表格
+  Table
+} from 'vxe-table';
 
 VXETable.setup({
   size: 'mini',
@@ -8,8 +16,10 @@ VXETable.setup({
     border: true
   }
 });
+
 function useTable(app) {
-  app.use(VXETable);
+  // 表格功能
+  app.use(Footer).use(Column).use(Table);
 }
 
 export default useTable;

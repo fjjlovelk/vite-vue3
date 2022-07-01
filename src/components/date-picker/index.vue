@@ -114,10 +114,8 @@ const handleBlur = e => {
 .my-date-picker {
   width: 150px;
   cursor: pointer;
-  ::v-deep {
-    .el-input__inner {
-      cursor: pointer;
-    }
+  :deep(.el-input__inner) {
+    cursor: pointer;
   }
 }
 </style>
