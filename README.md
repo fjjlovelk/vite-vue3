@@ -28,6 +28,4 @@
 - vite-plugin-mock（提供本地和生产mock服务）
 - vite-plugin-style-import（样式自动导入，配置vxe-table）
 - vite-plugin-compression（开启gzip压缩）
-- unplugin-auto-import（自动导入API，配置element-plus）
-- unplugin-vue-components（自动按需导入组件，配置element-plus）
 - consola（修复vite-plugin-style-import）

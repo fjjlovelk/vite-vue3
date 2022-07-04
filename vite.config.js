@@ -6,22 +6,12 @@ import {
   createStyleImportPlugin,
   VxeTableResolve
 } from 'vite-plugin-style-import';
-import AutoImport from 'unplugin-auto-import/vite';
-import Components from 'unplugin-vue-components/vite';
-import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 
 export default defineConfig({
   base: './',
   plugins: [
     vue(),
     viteCompression({ deleteOriginFile: true }),
-    AutoImport({
-      imports: ['vue'],
-      resolvers: [ElementPlusResolver()]
-    }),
-    Components({
-      resolvers: [ElementPlusResolver({ importStyle: 'sass' })]
-    }),
     viteMockServe({
       mockPath: './src/mock'
     }),
@@ -38,7 +28,6 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @use "@/styles/element.scss" as *;
           @use "@/styles/variables.scss" as *;
         `
       }
