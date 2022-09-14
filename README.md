@@ -21,6 +21,8 @@
 - wangeditor（富文本）
 - crypto-js（加密解密）
 - qs（参数序列化）
+- pinyin 3.0.0-alpha.4（汉字转拼音）
+- pinyin-match 1.2.2（拼音搜索）
 - esri-loader（ArcGIS API for JavaScript）
 - fontawesome-free-6.1.1（图标库，非npm安装，存在assets文件夹）
 - my97-datepicker-4.8.5（日期控件，非npm安装，存在public文件夹）

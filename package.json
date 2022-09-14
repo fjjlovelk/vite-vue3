@@ -21,6 +21,7 @@
     "mockjs": "^1.1.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.14",
+    "pinyin": "^3.0.0-alpha.4",
     "pinyin-match": "^1.2.2",
     "qs": "^6.10.5",
     "vue": "^3.2.25",
